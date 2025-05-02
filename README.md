@@ -12,7 +12,7 @@ This method will compute the logical xor (exclusive or) operation. The catch is 
 You just get a truth table.
 
 s0 | s1| F
-________________
+
  0 | 0 | x + y
 
  0 | 1 | xy
