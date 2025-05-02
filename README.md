@@ -6,7 +6,9 @@ Good luck...
 This method will take in a String of length 8 with ones and zeros (representing bits), a boolean direction (with true being right and false being left), and an amount. This method will return a String that represents a bit shift of that amount. Note that there are no leading zeros.
 
    Examples : 
+   
    bitShift("10000000", true, 1) -> "1000000"
+   
    bitShift("00000001", false, 1) -> "10"
               
 ## 2. xor
