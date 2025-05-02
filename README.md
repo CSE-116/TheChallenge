@@ -11,15 +11,15 @@ This method will compute the logical xor (exclusive or) operation. The catch is 
 ## 3. multiplexer
 You just get a truth table.
 
-s0|s1|F
+s0 | s1| F
 
-0 |0 | x + y
+ 0 | 0 | x + y
 
-0 |1 | xy
+ 0 | 1 | xy
 
-1 |0 | x
+ 1 | 0 | x
 
-1 |1 |y
+ 1 | 1 | y
 
 
 ## 4. binaryToDecimal
