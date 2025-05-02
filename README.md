@@ -10,12 +10,17 @@ This method will take in a String of length 8 with ones and zeros (representing 
 This method will compute the logical xor (exclusive or) operation. The catch is that this must be done with ONLY logical ands, logical ors, and logical nots. **DO NOT USE THE NATIVE JAVA XOR!**
 ## 3. multiplexer
 You just get a truth table.
+
 s0|s1|F
 
 0 |0 | x + y
+
 0 |1 | xy
+
 1 |0 | x
+
 1 |1 |y
+
 
 ## 4. binaryToDecimal
 This method will take a String of any length with ones and zeros (reperesenting bits). You will return the decimal number the String represents.
