@@ -31,26 +31,6 @@ public class Tests {
     }
 
     @Test
-    public void bitRotationRight(){
-        assertEquals("10101101", bitShift("10101101",true,0));
-        assertEquals("10010", bitShift("00100101",true,1));
-        assertEquals("101010", bitShift("10101010",true,2));
-        assertEquals("10101", bitShift("010101010",true,3));
-        assertEquals("101", bitShift("01010101",true,4));
-        assertEquals("100", bitShift("10010101",true,5));
-    }
-
-    @Test
-    public void bitRotationLeft(){
-        assertEquals("10101101", bitShift("10101101",false,0));
-        assertEquals("1001010", bitShift("00100101",false,1));
-        assertEquals("1010101000", bitShift("10101010",false,2));
-        assertEquals("10101010000", bitShift("010101010",false,3));
-        assertEquals("10101010000", bitShift("01010101",false,4));
-        assertEquals("100", bitShift("10010101",true,5));
-    }
-
-    @Test
     public void xorTest(){
         assertFalse(xor(false,false));
         assertTrue(xor(false,true));

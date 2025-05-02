@@ -6,23 +6,19 @@ public class Challenge {
         return "";
     }
 
-    public String bitRotation(String bits, boolean direction, int amount){
-        return "";
-    }
-
-    public boolean xor(boolean x, boolean y){
+    public static boolean xor(boolean x, boolean y){
         return true;
     }
 
-    public String multiplexer(boolean s0, boolean s1){
+    public static String multiplexer(boolean s0, boolean s1){
         return "";
     }
 
-    public int binaryToDecimal(String bits){
+    public static int binaryToDecimal(String bits){
         return 0;
     }
 
-    public String decimalToBinary(int num){
+    public static String decimalToBinary(int num){
         return "";
     }
 }
