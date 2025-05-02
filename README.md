@@ -16,7 +16,7 @@ s0|s1|F
 1 |0 | x
 1 |1 |y
 
-
-
 ## 4. binaryToDecimal
+This method will take a String of any length with ones and zeros (reperesenting bits). You will return the decimal number the String represents.
 ## 5. decimalToBinary
+This method will take an int representing a number. You will return the binary representation of that number with using a String.
